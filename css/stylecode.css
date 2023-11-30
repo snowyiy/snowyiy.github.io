@@ -1,0 +1,108 @@
+body {
+    margin: 0 auto;
+    
+}
+
+
+h1 {
+    color: blue;
+}
+
+
+a:visited {
+    color: #3B97FF;
+}
+
+
+header {
+    background-color: #F1F1F1;
+    margin: 0 auto;
+    padding: 60px;
+    margin-bottom: 2000px;
+    z-index: 1;
+    
+}
+
+
+div.titre {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+
+}
+
+
+div.nav1 {
+    position: fixed;
+    left: 250px;
+    top: 40px ;
+    z-index: 1;
+    
+}
+
+div.nav2 {
+    position: fixed;
+    left: 450px;
+    top: 40px;
+    z-index: 1;
+    
+}
+
+div.nav3 {
+    position: fixed;
+    left: 650px;
+    top: 40px;
+    z-index: 1;
+}
+
+
+div.recherche {
+    position: fixed;
+    left: 1060px;
+    top: 0px;
+    z-index: 1;
+
+}
+
+
+main {
+    margin-bottom: 0px;
+}
+
+
+aside {
+    background-color: #F1F1F1;
+    padding: 15px;
+    position: relative;
+    bottom: 1810px;
+    left: 1000px;
+}
+
+
+footer {
+    background-color: #1F1F1F;
+    color: #F9F9F9;
+    margin: 0 auto;
+    padding: 60px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 100px;
+}
+
+
+div.titre-bas {
+    position: relative;
+    left: 525px;
+    right: 0px;
+    bottom: 50px;
+}
+
+
+div.avis {
+    position: relative;
+    left: 460px;
+    right: 0px;
+    bottom: 40px;
+}
