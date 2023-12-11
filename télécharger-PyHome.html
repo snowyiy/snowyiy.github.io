@@ -3,35 +3,31 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="css/style-accueil.css">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
     <script src="script.js"></script>
-    <title>PyHome accueil</title>
+    <title>Télécharger PyHome</title>
     <meta charset="utf-8">
 </head>
 
 
 <body>
     <header>
-        <div class="page-title">
-            <a href="https://snowyiy.github.io/accueil.html" > <button><h1>PyHome<h1></button> </a>
+        <div class="titre">
+            <h1>Télécharger PyHome</h1>
         </div>
 
         <nav>
             <ul>
                 <div class="nav1">
-                    <a href="https://snowyiy.github.io/Doc-PyHome.html" > <button><h3>Doc PyHome<h3></button> </a>
+                    <a href="https://snowyiy.github.io/Doc-PyHome.html" > <li>PyHome</li> </a>
                 </div>
 
                 <div class="nav2">
-                    <a href="https://snowyiy.github.io/source-code.html" > <button><h3>Code Source<h3></button> </a>
+                    <a href="https://snowyiy.github.io/source-code.html" > <li>source-code</li> </a>
                 </div>
 
                 <div class="nav3">
-                    <button><h3>rien pour l'instant<h3></button>
-                </div>
-
-                <div class="nav4">
-                    <a href="https://snowyiy.github.io/télécharger-PyHome.html" > <button><h3>Download<h3></button> </a>
+                    <li>rien pour l'instant</li>
                 </div>
 
             </ul>
@@ -41,10 +37,10 @@
 
         <div class="recherche">
             <!-- le moteur de recherche integré -->
+            <label for="site-recherche"> <h2>Rechercher :</h2> </label>
             <input type="search" id="site-recherche" name="q">
             <button>shearch</button>
         </div>
-        
         
     </header>
 
@@ -52,23 +48,32 @@
     <main>
 
         <section>
+            <!-- lien pour télécharger py_apps.dmg (qui marche!) -->
+            <a target="_blank" href="PyHome.dmg" download> <img src="images/image-téléchargement.png"> </a>
+        </section>
+
+        <aside>
             <!-- lien qui redirige vers une autre page -->
             <a href="https://snowyiy.github.io/télécharger-PyHome.html" > <h2>Télécharger PyHome pour macOS</h2> </a>
-        </section>
 
+            
+            <!-- le truc pour donner son avis -->
+            <form method="post" action="">
+                <p>
+                    <label for="ameliorer"> <h3>Donnez votre avis !</h3>
+                    <textarea name="ameliorer" id="ameliorer"></textarea>
+                    <input type="submit" value="Envoyer">
+                </p>
+            </form>
 
-        <section>
-            <p>
-                
-            </p>
-        </section>
+        </aside>
 
     </main>
 
 
     <footer>
         <div class="titre-bas">
-            <h2>PyHome</h2>
+            <h2>coucou!</h2>
         </div>
 
         <div class="avis">
@@ -85,6 +90,5 @@
     </footer>
 
 </body>
-
 
 </html>

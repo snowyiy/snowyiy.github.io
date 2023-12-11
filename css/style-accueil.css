@@ -1,0 +1,111 @@
+body {
+    margin: 0 auto;
+    
+}
+
+
+a:visited {
+    color: purple;
+}
+
+
+header {
+    background-color: #1AABE5;
+    margin: 0 auto;
+    padding: 60px;
+    margin-bottom: 2000px;
+    z-index: 1;
+    
+}
+
+
+.page-title {
+    color: white;
+    background-color: #1AABE5;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+
+}
+
+
+.nav1 {
+    color: white;
+    background-color: #1AABE5;
+    position: fixed;
+    left: 122px;
+    top: 0px ;
+    z-index: 1;
+    
+}
+
+.nav2 {
+    color: white;
+    background-color: #1AABE5;
+    position: fixed;
+    left: 233px;
+    top: 0px;
+    z-index: 1;
+    
+}
+
+.nav3 {
+    color: white;
+    background-color: #1AABE5;
+    position: fixed;
+    left: 344px;
+    top: 0px;
+    z-index: 1;
+}
+
+.nav4 {
+    color: white;
+    background-color: #1AABE5;
+    position: fixed;
+    left: 1275px;
+    top: 0px;
+    z-index: 1;
+}
+
+
+.recherche {
+    position: fixed;
+    left: 1000px;
+    top: 20px;
+    z-index: 1;
+
+}
+
+
+main {
+    margin-bottom: 0px;
+}
+
+
+footer {
+    background-color: #1AABE5;
+    color: white;
+    margin: 0 auto;
+    padding: 30px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 100px;
+}
+
+
+.titre-bas {
+    position: relative;
+    left: 525px;
+    right: 0px;
+    bottom: 10px;
+}
+
+
+.avis {
+    position: relative;
+    left: 460px;
+    right: 0px;
+    bottom: 10px;
+}
