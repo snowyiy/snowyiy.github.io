@@ -8,4 +8,5 @@ if (motUtilisateur === motApplication) {
     window.location.href = 'https://snowyiy.github.io/accueil.html';
 } else {
     console.log("Échec, le mot n'est pas correct")
+    window.location.href = 'https://snowyiy.github.io/javascript/erreur.html';
 }
